@@ -1,6 +1,22 @@
 # OSX
 #
 .DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
 # Xcode
 #
@@ -13,20 +29,29 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
-xcuserdata
+xcuserdata/
 *.xccheckout
 *.moved-aside
-DerivedData
+DerivedData/
 *.hmap
 *.ipa
 *.xcuserstate
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
 **/.xcode.env.local
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcworkspace/contents.xcworkspacedata
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
 
 # Android/IntelliJ
 #
 build/
-.idea
-.gradle
+.idea/
+.gradle/
 local.properties
 *.iml
 *.hprof
@@ -34,12 +59,50 @@ local.properties
 *.keystore
 !debug.keystore
 .kotlin/
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+release/
+.gradletasknamecache
+android/app/build/
+android/build/
+android/.gradle/
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+android/local.properties
+android/app/release/
 
 # node.js
 #
 node_modules/
-npm-debug.log
-yarn-error.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+.npm
+.eslintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Package Manager Lock Files
+# Note: pnpm-lock.yaml, package-lock.json, yarn.lock should be committed
+# Uncomment the following lines if you want to ignore lock files:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
 
 # fastlane
 #
@@ -55,16 +118,119 @@ yarn-error.log
 
 # Bundle artifact
 *.jsbundle
+*.bundle
 
 # Ruby / CocoaPods
-**/Pods/
+#
+ios/Pods/
+# Note: Podfile.lock should be committed for consistency across team members
+# Uncomment the following line if you want to ignore Podfile.lock:
+# ios/Podfile.lock
 /vendor/bundle/
+.bundle/
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/test/tmp/
+/test/version_tmp/
+/tmp/
+*.swp
+*~
+.project
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+.cproject
+.autotools
+.factorypath
+.buildpath
+.target
+.springBeans
+.recommenders
 
 # Temporary files created by Metro to check the health of the file watcher
 .metro-health-check*
 
+# Metro bundler
+.metro/
+.metro-cache/
+
+# React Native
+#
+# React Native packager
+.react-native/
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
 # testing
-/coverage
+#
+coverage/
+*.lcov
+.nyc_output/
+*.test.js.snap
+.jest/
+
+# TypeScript
+#
+*.tsbuildinfo
+*.d.ts.map
+
+# Environment variables
+#
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+
+# Logs
+#
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Editor directories and files
+#
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*~
+.project
+.classpath
+.settings/
+.loadpath
+.externalToolBuilders/
+.cproject
+.autotools
+.factorypath
+.buildpath
+.target
+.springBeans
+.recommenders
 
 # Yarn
 .yarn/*
@@ -73,3 +239,66 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# pnpm
+.pnpm-store/
+.pnpm-debug.log*
+
+# Watchman
+.watchmanconfig.local
+
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Misc
+#
+*.pem
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+*.rej
+*.bak
+*.tmp
+*.temp
+.cache/
+.temp/
+.tmp/

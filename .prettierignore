@@ -1,0 +1,15 @@
+node_modules/
+ios/
+android/
+*.log
+.DS_Store
+coverage/
+build/
+dist/
+*.min.js
+metro.config.js
+babel.config.js
+jest.config.js
+react-native.config.js
+pnpm-lock.yaml
+package-lock.json
