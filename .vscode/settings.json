@@ -7,7 +7,8 @@
     "typescriptreact"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
+    "source.fixAll.eslint": "explicit",
+    "source.formatDocument": "explicit"
   },
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -27,13 +28,19 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
   },
+  "files.associations": {
+    "*.tsx": "typescriptreact"
+  },
   "eslint.workingDirectories": ["."],
   "eslint.options": {
     "overrideConfigFile": ".eslintrc.js"
   },
-  "prettier.requireConfig": true,
+  "prettier.enable": true,
+  "prettier.requireConfig": false,
   "prettier.useEditorConfig": false,
   "prettier.configPath": ".prettierrc.js",
+  "prettier.resolveGlobalModules": true,
+  "prettier.documentSelectors": ["**/*.{ts,tsx,js,jsx,json,css,scss,md}"],
   "eslint.format.enable": false,
   "editor.rulers": [80, 120]
 }
