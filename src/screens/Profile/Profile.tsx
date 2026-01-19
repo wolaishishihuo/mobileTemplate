@@ -1,6 +1,6 @@
 import type { RootTabScreenProps } from '@/navigation/types';
 import { Paths } from '@/navigation/paths';
-import { SafeView } from '@/components/template/SafeView';
+import { SafeView } from '@/components/SafeView';
 import { Text } from 'react-native';
 import { useTheme } from '@/themes';
 

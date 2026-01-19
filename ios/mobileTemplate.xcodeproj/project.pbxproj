@@ -10,6 +10,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		761780ED2CA45674006654EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761780EC2CA45674006654EE /* AppDelegate.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		903688CDAE3E441F8FD0C4EC /* BootSplash.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F8EDF1CCF1B46359E632A88 /* BootSplash.storyboard */; };
+		B943E8D112D748F7A3003786 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EF1FAEABBFA4E12A17563E8 /* Colors.xcassets */; };
 		D6F48A48C2BEC481FEF30693 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		F0E75822E37F497AD6F77B04 /* libPods-mobileTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1859F11730F0FB68D4BAA3E9 /* libPods-mobileTemplate.a */; };
 /* End PBXBuildFile section */
@@ -20,9 +22,11 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = mobileTemplate/Info.plist; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = mobileTemplate/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		1859F11730F0FB68D4BAA3E9 /* libPods-mobileTemplate.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mobileTemplate.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EF1FAEABBFA4E12A17563E8 /* Colors.xcassets */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = folder.assetcatalog; name = Colors.xcassets; path = mobileTemplate/Colors.xcassets; sourceTree = "<group>"; };
 		61E75D00FDE3A35CEB888013 /* Pods-mobileTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileTemplate.release.xcconfig"; path = "Target Support Files/Pods-mobileTemplate/Pods-mobileTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		761780EC2CA45674006654EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = mobileTemplate/AppDelegate.swift; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = mobileTemplate/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8F8EDF1CCF1B46359E632A88 /* BootSplash.storyboard */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = BootSplash.storyboard; path = mobileTemplate/BootSplash.storyboard; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F383E9F952D1AC65C377CC46 /* Pods-mobileTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mobileTemplate.debug.xcconfig"; path = "Target Support Files/Pods-mobileTemplate/Pods-mobileTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -47,6 +51,8 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+				8F8EDF1CCF1B46359E632A88 /* BootSplash.storyboard */,
+				2EF1FAEABBFA4E12A17563E8 /* Colors.xcassets */,
 			);
 			name = mobileTemplate;
 			sourceTree = "<group>";
@@ -161,6 +167,8 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				D6F48A48C2BEC481FEF30693 /* PrivacyInfo.xcprivacy in Resources */,
+				903688CDAE3E441F8FD0C4EC /* BootSplash.storyboard in Resources */,
+				B943E8D112D748F7A3003786 /* Colors.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
