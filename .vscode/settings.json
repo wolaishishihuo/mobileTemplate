@@ -7,7 +7,7 @@
     "typescriptreact"
   ],
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit",
+    "source.fixAll.eslint": "onSave",
     "source.formatDocument": "explicit"
   },
   "editor.formatOnSave": true,
@@ -35,6 +35,8 @@
   "eslint.options": {
     "overrideConfigFile": ".eslintrc.js"
   },
+  "eslint.run": "onSave",
+  "eslint.lintTask.enable": true,
   "prettier.enable": true,
   "prettier.requireConfig": false,
   "prettier.useEditorConfig": false,
